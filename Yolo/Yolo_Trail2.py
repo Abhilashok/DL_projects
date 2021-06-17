@@ -239,7 +239,7 @@ yolo_dataset = Yolo_Dataset(Images_dir, Labels_dir, classes)
 
 Train_Loader = DataLoader(yolo_dataset, batch_size = Batch_size, shuffle = True)
 
-#####################################################
+###################################################################
 
 architecture = [(3, 64, 7, 2, 6 , 2),
                 
